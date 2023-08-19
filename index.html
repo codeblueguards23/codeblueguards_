@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Blue Guards</title>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <div class="profile-photo">
+            <img src="logo.jpeg" alt="Profile Photo">
+        </div>
+        <div class="name">
+            <h1><b>Code Blue Guards</b></h1>
+            <h4 id="pretitle"><i>Nursing Services</i></h4>
+        </div>
+        <br>
+        <div class="social-icons">
+            <button class="instagram-button" onclick="openInstagram()">
+                <img src="instalogo.png" alt="Instagram" class="instagram-logo">
+                Open Instagram
+              </button>
+              <script>
+                function openInstagram() {
+    window.open("https://www.instagram.com/codeblueguards/", "_blank");
+}
+              </script>
+            <button class="whatsapp-button" onclick="openWhatsAppChat()">
+                <img id="logo"  src="whatsapp.png" alt="WhatsApp Logo" class="whatsapp-logo">Chat on Whatsapp
+            </button>
+        <script>
+            function openWhatsAppChat() {
+                var phoneNumber = '+961 3 840 912';
+                var whatsappUrl = 'http://bit.ly/whatsappcode-link'
+                window.open(whatsappUrl, '_blank');
+            }
+        </script>
+
+          <button id="call-button" onclick="callPhoneNumber()">Call Us</button>
+
+          <script>
+               function callPhoneNumber() {
+               var phoneNumber = '+961 3 840 912';
+               var telUrl = 'tel:' + phoneNumber;
+               window.location.href = telUrl;
+        }
+          </script>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <div class="about-item">
+        <h2>About CBG</h2>
+        <p>
+          Welcome to our nursing services website! We are dedicated to providing compassionate and expert care 
+          to individuals in need. With a team of highly skilled and experienced nurses, we strive to enhance the quality 
+          of life for our patients and their families. Our commitment to delivering personalized and attentive healthcare 
+          ensures that each individual receives the support they require in the comfort of their own surroundings. At
+          the heart of our mission is a deep passion for promoting wellness and a profound understanding of the importance of 
+          holistic care. Thank you for considering us as your trusted partners in health and well-being. 
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-item">
+        <h2><b>Hussein Issa</b></h2>
+        <br>
+        <h4><i>Registered Nurse</i></h4>
+        <p>Email:<a href="mailto:husseinissa17906@gmail.com" target="_blank"> husseinissa17906@gmail.com</a></p>
+        <p>Phone: +961 3 840 912</p>
+        <p>Address: Bir Hassan, Mount Lebanon Governorate, Lebanon</p>
+    </div>
+</section>
+
+<section id="education">
+    <div class="education-item">
+        <h2>Education</h2>
+        <br>
+        <h3>Islamic University of Lebanon</h3>
+        <p>BS - Nursing</p>
+        <p>Jul 2021</p>
+    </div>
+    <br>
+    <div class="experience-item">
+        <h2>Experience</h2>
+        <ul>
+            <li>Lebanese Italian Hospital</li>
+            <li>Beirut Cardiac Institute</li>
+        </ul>
+    </div>
+</section>
+
+<section id="services">
+    <div class="services-item">
+        <h2>Our Services</h2>
+        <br>
+        <ul>
+            <li>IV Therapy</li>
+            <li>Wound Care and Dressing Changing</li>
+            <li>Home Care and Assistance</li>
+            <li>Laboratory Test</li>
+            <li>Injections and Medication Administration</li>
+            <li>Hygiene Care</li>
+            <li>Foley and Ostomy Care</li>
+            <li>Physiotherapy</li>
+            <li>Accompanying Patients Inside Hospitals</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>
+    <b>Copyright  © 2023 Code Blue Guards (CBG) - Hussein Issa</b>
+    <br>
+    </p>
+</footer>
+
+</body>
+</html>
